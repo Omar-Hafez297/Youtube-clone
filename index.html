@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+</head>
+<body>
+    <header>
+       <div class="left-section">
+            <i class="material-icons">menu</i>
+            <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744669/youtube%20clone/hvo54qm2cvzqcna4siyz.png" alt="">
+       </div>
+    <div class="mid-section">
+        <form action="">
+        <input type="text" placeholder="Search">
+        <button><i class="material-icons">search</i></button>
+        </form>
+        <i class="material-icons mic">mic</i>
+    </div>
+    <div class="right-section">
+        <a href=""><i class="material-icons">video_call</i></a>        
+        <a href=""><i class="material-icons">apps</i></a>        
+        <a href=""><i class="material-icons">notifications</i></a>        
+        <a href=""><i class="material-icons">account_circle</i></a>        
+     </div>
+    </header>
+    <div class="content-area">
+        <aside>
+            <nav>
+                <a href="" class="nav-link active">
+                    <i class="material-icons">home</i>
+                    <span id="active-span">Home</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">explore</i>
+                    <span>Explore</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">subscriptions</i>
+                    <span>Subscriptions</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">ondemand_video</i>
+                    <span>Originals</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons">play_circle_outline</i>
+                    <span>Youtube Music</span>
+                </a>
+                <hr>
+                <div class="you">
+                     <a href="https://www.youtube.com/feed/you">You
+                        <yt-icon class="arrow-icon style-scope ytd-guide-entry-renderer" 
+                    icon="chevron_right" size="16"><!--css-build:shady-->
+                    <!--css-build:shady-->
+                <yt-icon-shape class="style-scope yt-icon">
+                    <icon-shape class="yt-spec-icon-shape">
+                        <div style="width: 100%; height: 100%; fill: currentcolor;">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" 
+                            viewBox="0 0 16 16" width="16" focusable="false" 
+                            style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                            <path d="M4.97 12.65 9.62 8 4.97 3.35l.71-.71L11.03 8l-5.35 5.35-.71-.7z"></path>
+                        </svg></div></icon-shape></yt-icon-shape></yt-icon>         
+                     </a>
+                    
+                </div>
+                 <a href="" class="nav-link">
+                    <i class="material-icons-outlined">video_library</i>
+                    <span>Library</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">smart_display</i>
+                    <span>Your Videos</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a href="" class="nav-link">
+                    <i class="material-icons-outlined">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+                <hr>
+                <p>Subscriptions</p>
+                <a href="https://www.youtube.com/@mas.officiall/videos" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/ghi24nrjyjq2dkj3ii4f.jpg" alt="">
+                <span>MAS - ماس</span>
+            </a>
+            <a href="https://www.youtube.com/@waie" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744663/youtube%20clone/lc9yml7tdnawowexzrun.jpg" alt="">
+                <span>وعي </span>
+            </a>
+            <a href="https://www.youtube.com/@DroosOnline4u" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/o0zhulryrbadmx08jq4h.jpg" alt="">
+                <span>دروس أونلاين</span>
+            </a>
+            <a href="https://www.youtube.com/@abouzaid" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744663/youtube%20clone/dzignpd1eutk3n13oz2v.jpg" alt="">
+                <span>Abouzaid Vlogs</span>
+            </a>
+            <a href="https://www.youtube.com/@Jeelyaqraa" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/tah7mh0nrac1mjfq6val.jpg" alt="">
+                <span>ReadTube - جيل يقرأ</span>
+            </a>
+            <a href="https://www.youtube.com/@MohamedAboubakr" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744663/youtube%20clone/rykqwzqrilh5smmegxgk.jpg" alt="">
+                <span>Mohamed Aboubakr</span>
+            </a>
+            <a href="https://www.youtube.com/@Fahem.Podcast" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/vdiu3wxmjjddhupeoukn.jpg" alt="">
+                <span>فاهم بودكاست</span>
+            </a>
+            <a href="https://www.youtube.com/@ElzeroWebSchool" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/exwduqt0uqfdtgc8jfeq.jpg" alt="">
+                <span>Elzero Web School</span>
+            </a>
+            <a href="https://www.youtube.com/@MohamedAbusrea" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744666/youtube%20clone/ctqnwwzuk9mhieexyum4.jpg" alt="">
+                <span>Mohamed Abusrea - محمد أبوسريع</span>
+            </a>
+            <a href="https://www.youtube.com/@ahmdelemam" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/hf9ph5fbtzgwbmvqaqxn.jpg  " alt="">
+                <span>Ahmed Elemam</span>
+            </a>
+            <a href="https://www.youtube.com/@AbdelrahmanGamal" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709761812/unnamed_m3zngq.jpg" alt="">
+                <span>Abdelrahman Gamal 
+                </span>
+            </a>
+            <a href="https://www.youtube.com/@ahmdelemam" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/exwduqt0uqfdtgc8jfeq.jpg" alt="">
+                <span>Elzero Web School 
+                </span>
+            </a>
+            <a href="https://www.youtube.com/@Archive_Makany_World" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/hf9ph5fbtzgwbmvqaqxn.jpg" alt="">
+                <span>أرشيف فقه النفس</span>
+            </a>
+            <a href="https://www.youtube.com/@Fahem.Podcast" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/ghi24nrjyjq2dkj3ii4f.jpg" alt="">
+                <span>فاهم بودكاست 
+                </span>
+            </a>
+            <a href="https://www.youtube.com/@Trateel_Mans" class="nav-link">
+                <img class="channel-img" src="https://yt3.ggpht.com/PoEJCjLKi-vr4ULSewoCduLwDpZS_2Qcigdetme0SHKNqc1GWtWmkgUJTNXyoGfD25u50tct=s88-c-k-c0x00ffffff-no-rj" alt="">
+                <span>تراتيل</span>
+            </a>
+            <a href="https://www.youtube.com/@DrHazemShouman" class="nav-link">
+                <img class="channel-img" src="https://yt3.googleusercontent.com/YkZJXnAZC-_pjHU7EEqWyAZQYm8JbfWcFikZquxt8KPyq2DzGVZDVdLwB8ix9jLmuDG0S43y4_Q=s176-c-k-c0x00ffffff-no-rj" alt="">
+                <span>Dr. Hazem Shouman </span>
+            </a>
+            
+            <a href="https://www.youtube.com/@codezillacademy" class="nav-link">
+                <img class="channel-img" src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/w50v902fmn1rdvsfinol.jpg" alt="">
+                <span>Codezilla Academy</span>
+            </a>
+            
+            
+            </nav>
+            
+        </aside>
+        <main>
+            <div class="videos-cotainer">
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=63_AOCldyXo&t=4251s" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/63_AOCldyXo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDDctoMCAsSx9wyPMmvaou3b4J4lw" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/watch?v=63_AOCldyXo&t=4251s" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/ghi24nrjyjq2dkj3ii4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=63_AOCldyXo&t=4251s" class="video-title">
+                                فاهم 36 | سلسلة تذوق العبادات - (1) الصلاة | مع د. أحمد العربي
+                            </a>
+                            <a href="" class="video-creator">
+                                فاهم بودكاست
+                            </a>
+                            <span> 417K views • 9 days ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=XVSxthkdd9c" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/XVSxthkdd9c/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIFYofzAP&amp;rs=AOn4CLCOoCUNQ_OjhVVeN50sD4Rabjw0vw" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/watch?v=XVSxthkdd9c" >
+                                <img src="https://yt3.ggpht.com/PoEJCjLKi-vr4ULSewoCduLwDpZS_2Qcigdetme0SHKNqc1GWtWmkgUJTNXyoGfD25u50tct=s88-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=XVSxthkdd9c" class="video-title">
+                                سورة إبراهيم آخر ما سُجل لباسل مؤنس رحمه الله                            </a>
+                            <a href="" class="video-creator">
+                                تراتيل                            </a>
+                            <span> 4.4M views • 1 year ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=Ts8Pl7tUbi0&pp=ygUn2K3Yp9iy2YUg2LTZiNmF2KfZhiDYrdmB2Lgg2KfZhNmC2LHYp9mG">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/Ts8Pl7tUbi0/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAtYDigIMCAAQARgzIF0ocjAP&amp;rs=AOn4CLCdpp_GZNxnxYrjbKUcBu8Ybsw5Cw" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCymD4lFV_K_Y03yJn5FbL3Q">
+                                <img src="https://yt3.ggpht.com/YkZJXnAZC-_pjHU7EEqWyAZQYm8JbfWcFikZquxt8KPyq2DzGVZDVdLwB8ix9jLmuDG0S43y4_Q=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=Ts8Pl7tUbi0&pp=ygUn2K3Yp9iy2YUg2LTZiNmF2KfZhiDYrdmB2Lgg2KfZhNmC2LHYp9mG" class="video-title">
+                                حفظ القرآن غيرني .. " محاضرة " .. #الجمعية_الشرعية_بالمنصورة .. د . حازم شومان
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCymD4lFV_K_Y03yJn5FbL3Q" class="video-creator"   >
+                                Dr. Hazem Shouman                             </a>
+                            <span> 1.5M views • 3 weeks ago </span>
+                        </div>
+                    </div>
+                </div>                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=I1_1zFiNL4A" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/I1_1zFiNL4A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLArTLWJfMLLYkm8pTeQhFnWPGsJIg" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UC5NWpaayrCEIe7P6Y50pvVQ" >
+                                <img src="https://yt3.ggpht.com/vVwcuXknrAY6WFAYNgydcz3DR3d4zBflXdYzG09iSz7tLE_3p3qe-5ZX_87x1SiMqleHhNlgQw=s88-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=I1_1zFiNL4A" class="video-title">
+                                إيه المشكلة لو مش ملتزم ؟! | مع حازم شومان                            </a>
+                            <a href="https://www.youtube.com/channel/UC5NWpaayrCEIe7P6Y50pvVQ" class="video-creator"  . \>
+                                إيه المشكلة
+                            </a>
+                            <span> 85K views • 3 days ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=fHRn7KPYeLY" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/fHRn7KPYeLY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBi6J4Sj2nc4DKH2Li-6j88oyMYeg" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCJskmnphmzVP-x4dvN1BoPA" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744665/youtube%20clone/o0zhulryrbadmx08jq4h.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=fHRn7KPYeLY" class="video-title">
+                                مزاجك هو سر فشلك
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCJskmnphmzVP-x4dvN1BoPA" class="video-creator"  . >
+                                دروس أونلاين 
+                            </a>
+                            <span> 1.2M views • 6 months ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=V704QWsDeGQ&t=43s" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/V704QWsDeGQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAEEufzKWPVNsPg4G5tZ2fHqdNg9Q" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCi1QF95-MIXtE3bTjyI5g3A" >
+                                <img src="https://yt3.ggpht.com/00-E8m7PJx8xQs1CCUGXOXQjT1XX5_tww_F8KdLlksbBwzc0NDutY2kpSTjRkOGaj1M_BdcxIU4=s88-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=V704QWsDeGQ&t=43s" class="video-title">
+                                العلم النافع مؤلم ويحتاج إلى بذل | لطفي أحمد الطوخي @LotfiELtokhi
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCi1QF95-MIXtE3bTjyI5g3A" class="video-creator"  . >
+                                أرشيف فقه النفس
+                            </a>
+                            <span> 28K views • 1 week ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=BISUb09oVTw&t=925s">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/BISUb09oVTw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB9pmWel2oUu0NoK-7ELMsPU_yHbQ" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UC3s2F41lmRb3vQ2NTssRc7g" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/tah7mh0nrac1mjfq6val.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=BISUb09oVTw&t=925s" class="video-title">
+                                لا تهدر عمرك !! ملخص كتاب : إدارة الوقت بين التراث والمعاصرة
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC3s2F41lmRb3vQ2NTssRc7g" class="video-creator"  . >
+                                ReadTube - جيل يقرأ 
+                            </a>
+                            <span> 215K views • 1 month ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=YAwrXdEvC4s" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/YAwrXdEvC4s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBFBK60r_OWBxB450GkMMsOaKTfMg" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCWh1x4j3pb-kO2bUx-jymzg" >
+                                <img src="https://yt3.googleusercontent.com/ytc/AIdro_neOe-Zuv1-T8yNxFmmbfeoQzvNB6__XBf5b2bWNw=s176-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=YAwrXdEvC4s" class="video-title">
+                                أمة الدوبامين Dopamine Nation - علي وكتاب
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCWh1x4j3pb-kO2bUx-jymzg" class="video-creator"  >
+                                Ali Muhammad Ali 
+                            </a>
+                            <span> 888.3K views • 1 month ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=ncaJkYImDc8&t=4041s" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/ncaJkYImDc8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDF616VY6QKtDA2D45QnBANXeEzbw" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCUukdi-3uIQx_jL8jVLbVZQ" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744666/youtube%20clone/ctqnwwzuk9mhieexyum4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=ncaJkYImDc8&t=4041s" class="video-title">
+                                دليل المستجد في انترفيوهات الفرونت اند
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCUukdi-3uIQx_jL8jVLbVZQ" class="video-creator" >
+                                Mohamed Abusrea - محمد أبوسريع
+                            </a>
+                            <span> 500K views • 5 months ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=PRBO40Lpa18&t=114s&pp=ygURY29kZXppbGxhIGFjYWRlbXk%3D" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/PRBO40Lpa18/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAYGf5Aec30PPhV2imoByWf6EzYSQ" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UC5vlyw3A9y4TN1v6mzpAqZQ" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/w50v902fmn1rdvsfinol.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=PRBO40Lpa18&t=114s&pp=ygURY29kZXppbGxhIGFjYWRlbXk%3D" class="video-title">
+                                Build Responsive Websites with HTML, CSS, Javascript | مشاريع فرونت اند
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC5vlyw3A9y4TN1v6mzpAqZQ" class="video-creator" >
+                                Codezilla Academy
+                            </a>
+                            <span> 38K views • 1 month ago </span>
+                        </div>
+                    </div>
+                </div>                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=ytYS-Geo5JM" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/ytYS-Geo5JM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCQ8nIHHnHwC904eVYW7PhfvMae7w" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCuvDJUHYxLFtYXDzcpvMDOA" >
+                                <img src="https://yt3.googleusercontent.com/-qCvx3y42iXp9cMNe5Yx3aoR2lL8TFxsrLShyBLuXOE4tY56kt_bPceyvPw95rpUqgKqI8zDBe4=s176-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=ytYS-Geo5JM" class="video-title">
+                                الكمبيوتر المناسب لتعلم البرمجة
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCuvDJUHYxLFtYXDzcpvMDOA" class="video-creator" >
+                                Elzero Web School 
+                            </a>
+                            <span> 5.5M views • 2 years ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=h1mNPEjva8U&t=38s" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/h1mNPEjva8U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBgcXN5YFG5ZUQwyoZsxgzv4mB9kQ" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UC4s1DEZ-qduHhgaUFHruqMw" >
+                                <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709761812/unnamed_m3zngq.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=h1mNPEjva8U&t=38s" class="video-title">
+                                كورس css كامل في فيديو واحد | احترف و تعلم كل شئ عن css
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC4s1DEZ-qduHhgaUFHruqMw" class="video-creator" >
+                                Abdelrahman Gamal 
+                            </a>
+                            <span> 384K views • 1 year ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/Xwth-dnvLVE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDTnoiE1z5l_Beduhn2LdcoGA7MmA" alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744664/youtube%20clone/ghi24nrjyjq2dkj3ii4f.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=Xwth-dnvLVE&t=35s" class="video-title">
+                                اعمل ايه مع ضغط وتراكم مذاكرة البناء المنهجي 💔
+                            </a>
+                            <a href="" class="video-creator">
+                                MAS - ماس
+                             </a>
+                            <span> 417K views • 9 days ago </span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <a href="https://www.youtube.com/watch?v=bzXml1w91PM&pp=ygUf2KfZhNi02YrYriDYp9it2YXYryDYp9mE2LPZitivIA%3D%3D" >
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/bzXml1w91PM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCViCF4gm9zuhZgXp_VdvVnTToETw" alt="">
+                        </div>
+                    </a>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <a href="https://www.youtube.com/channel/UCeFisB2Jhhk1k_NUfZ5_I2A" >
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_mQL_dWTMqtA_UAMe1y1JqtFUu3g243IXOKlAiuPg=s68-c-k-c0x00ffffff-no-rj" alt="">
+                            </a>
+                        </div>
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=bzXml1w91PM&pp=ygUf2KfZhNi02YrYriDYp9it2YXYryDYp9mE2LPZitivIA%3D%3D" class="video-title">
+                                شرح المنهاج من ميراث النبوة ٠٢ | تلقي القرآن على منهاج النبوة | أحمد السيد
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCeFisB2Jhhk1k_NUfZ5_I2A" class="video-creator" >
+                                أحمد السيد 
+
+                            </a>
+                            <span> 8.7M views • 11 months ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/2g8GVcthSs0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLD_JVo8J_Q5eLFJYEe7h46lMQW2nQ" alt="Video Thumbnail">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744668/youtube%20clone/dvk8hwqj5o6uru6pn9qb.jpg" alt="Creator Profile Image">
+                        </div>
+                        <div class="title">
+                            <a href="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744668/youtube%20clone/dvk8hwqj5o6uru6pn9qb.jpg" class="video-title">
+                                إن صليت بالناس إماما لا أخشع || #الشيخ_سمير_مصطفى
+                            </a>
+                            <a href="#" class="video-creator">
+
+                                قناة الشيخ سمير مصطفى الرسمية                            </a>
+                            <span> 417K views • 9 days ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/JW1_84-Pd1w/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCx7To_PjbkWI-E0TBaC7u3-dAYpA" alt="Video Thumbnail">
+                    </div>
+                    <div class="video-details">
+                        <div class="creator-img">
+                            <img src="https://res.cloudinary.com/dbltmxwep/image/upload/v1709744663/youtube%20clone/cpykrsekttwclxbmbzna.jpg" alt="Creator Profile Image">
+                        </div>i
+                        <div class="title">
+                            <a href="https://www.youtube.com/watch?v=JW1_84-Pd1w" class="video-title">
+                                التعرض المتكرر للقرآن / د.أحمد عبد المنعم
+                            </a>
+                            <a href="#" class="video-creator">
+                                شبكة الطريق إلى الله - Way2AllahCom 
+                            </a>
+                            <span> 417K views • 9 days ago </span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+               
+                
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
